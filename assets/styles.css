@@ -1,0 +1,150 @@
+html, body {
+    background-color: rgb(223, 247, 244);
+    color: rgb(92, 173, 165);
+    
+}
+
+main {
+    text-align: center;
+    margin: 10px 50px;
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(224 255 252), rgb(92, 173, 165));
+    height: 90px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid gold;
+}
+
+.logoTop{
+    height: 80%;
+    position: absolute;
+    align-items: center;
+    top: 10px;
+}
+
+
+
+.nav-item {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+
+
+.nav-link {
+    color: inherit;
+    background-color: rgb(255, 247, 200);
+    border: 0.5px solid gold;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    background-color: gold;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: linear-gradient(to top, rgb(205, 236, 233), #9ab7b6);
+    color: rgb(78, 145, 138);
+}
+
+.jumbotron .container {
+    text-align: center;
+}
+
+/* main sections */
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+section {
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 5px rgb(92, 173, 165);
+    margin-bottom: 20px;
+    background-color: rgb(205, 236, 233);
+    color: rgb(92, 173, 165);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    margin: 0;
+}
+
+#dealOfTheWeek .card {
+    height: 25rem;
+}
+
+#dealOfTheWeek .card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card-link {
+    color: inherit;
+    background-color: rgb(255, 247, 200);
+    border: 0.5px solid gold;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.card-link:hover {
+    background-color: gold;
+}
+
+
+#welcomeSummer .card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
+
+#welcomeSummer .card {
+    height: 20rem;
+}
+
+#dealOfTheDay {
+    
+    padding: 20px;
+}
+
+#dealOfTheDay .card {
+    overflow: hidden;
+    padding: 0;
+    width: 66%;
+}
+
+#dealOfTheDay .card-img-top{
+    overflow: hidden;
+    object-fit: cover;
+    height: 30rem;
+}
+
+.info-deal {
+    width: 33%;
+}
+
+.dealOfTheDayContainer {
+
+    display: flex;
+}
+
+#lastMinute .card {
+    border: none;
+    height: 15rem;
+}
+
+#lastMinute .card-img-top {
+    object-fit: cover;
+    height: 100%;
+}
