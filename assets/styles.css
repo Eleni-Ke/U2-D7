@@ -148,3 +148,9 @@ section {
     object-fit: cover;
     height: 100%;
 }
+
+/* dropdown */
+
+.navbar {
+    height: 100%;
+}
